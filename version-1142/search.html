@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索 - 推荐电影大全</title>
+  <meta name="description" content="搜索片名、题材、地区、年份与标签，快速找到推荐电影大全中的影片详情。">
+  <meta name="keywords" content="推荐电影大全,精选影片片单,电影推荐,影片点播,热门影片,电影分类,精选电影,影片搜索">
+  <link rel="stylesheet" href="./assets/base.css">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="site-container header-inner" aria-label="主导航">
+    <a class="brand" href="./index.html" aria-label="推荐电影大全">
+      <span class="brand-mark">影</span>
+      <span class="brand-text">推荐电影大全</span>
+    </a>
+    <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="nav-panel" data-nav-panel>
+      <div class="nav-links">
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./categories.html">分类</a>
+        <a class="nav-link" href="./rankings.html">排行</a>
+        <a class="nav-link is-active" href="./search.html">搜索</a>
+      </div>
+      <form class="top-search" action="./search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </nav>
+</header>
+
+<main class="page-main">
+  <section class="site-container page-hero search-hero">
+    <p class="eyebrow">影片搜索</p>
+    <h1>查找想看的影片</h1>
+    <p>输入片名、题材、地区、年份或标签，快速定位影片卡片与详情页。</p>
+    <form class="wide-search search-page-form" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="输入关键词" data-search-input autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+  </section>
+  <section class="site-container section-block">
+    <div class="search-status" data-search-status>精选推荐</div>
+    <div class="movie-grid" data-search-results>
+      <article class="movie-card" data-filter-item data-title="院子里的女人" data-genre="恐怖、悬疑" data-tags="邵氏经典,民俗恐怖,伦理惊悚" data-year="1979">
+  <a class="poster-link" href="./movie-0024.html" aria-label="观看院子里的女人">
+    <img src="./24.jpg" alt="院子里的女人" loading="lazy">
+    <span class="poster-play">▶</span>
+    <span class="poster-category">惊悚恐怖</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="movie-meta-line">
+      <span>1979</span>
+      <span>香港</span>
+      <span>电影</span>
+    </div>
+    <h3><a href="./movie-0024.html">院子里的女人</a></h3>
+    <p>一座旧式庭院里,男人每隔三年就会娶一房新的太太,而之前的太太们全都在院子里消失了。</p>
+    <div class="tag-row">
+          <span>恐怖</span>
+          <span>悬疑</span>
+          <span>邵氏经典</span>
+    </div>
+    <div class="card-stats">
+      <span>★ 9.6</span>
+      <span>53.8万热度</span>
+    </div>
+  </div>
+</article>
+
+<article class="movie-card" data-filter-item data-title="熊出没" data-genre="喜剧/动画/家庭" data-tags="熊大熊二,光头强,春节档,环保,搞笑" data-year="2014">
+  <a class="poster-link" href="./movie-0095.html" aria-label="观看熊出没">
+    <img src="./95.jpg" alt="熊出没" loading="lazy">
+    <span class="poster-play">▶</span>
+    <span class="poster-category">动画动漫</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="movie-meta-line">
+      <span>2014</span>
+      <span>中国大陆</span>
+      <span>动画电影</span>
+    </div>
+    <h3><a href="./movie-0095.html">熊出没</a></h3>
+    <p>光头强被李老板逼着砍树,熊大熊二为了保护森林,和他展开了爆笑的追逐战。</p>
+    <div class="tag-row">
+          <span>喜剧</span>
+          <span>动画</span>
+          <span>家庭</span>
+    </div>
+    <div class="card-stats">
+      <span>★ 9.6</span>
+      <span>36.4万热度</span>
+    </div>
+  </div>
+</article>
+
+<article class="movie-card" data-filter-item data-title="最狂野的梦想:征服珠峰" data-genre="纪录,冒险,传记" data-tags="登山,真实事件,极限挑战,人性" data-year="2023">
+  <a class="poster-link" href="./movie-0096.html" aria-label="观看最狂野的梦想:征服珠峰">
+    <img src="./96.jpg" alt="最狂野的梦想:征服珠峰" loading="lazy">
+    <span class="poster-play">▶</span>
+    <span class="poster-category">纪录人文</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="movie-meta-line">
+      <span>2023</span>
+      <span>英国</span>
+      <span>纪录片</span>
+    </div>
+    <h3><a href="./movie-0096.html">最狂野的梦想:征服珠峰</a></h3>
+    <p>重走1924年马洛里失踪路线,用现代技术还原那次未完成的征服。</p>
+    <div class="tag-row">
+          <span>纪录</span>
+          <span>冒险</span>
+          <span>传记</span>
+    </div>
+    <div class="card-stats">
+      <span>★ 9.6</span>
+      <span>63.0万热度</span>
+    </div>
+  </div>
+</article>
+
+<article class="movie-card" data-filter-item data-title="教父之祖" data-genre="剧情/犯罪/历史" data-tags="黑帮起源,西西里传奇,史诗气魄" data-year="2027">
+  <a class="poster-link" href="./movie-0188.html" aria-label="观看教父之祖">
+    <img src="./38.jpg" alt="教父之祖" loading="lazy">
+    <span class="poster-play">▶</span>
+    <span class="poster-category">古装历史</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="movie-meta-line">
+      <span>2027</span>
+      <span>意大利/美国</span>
+      <span>电影</span>
+    </div>
+    <h3><a href="./movie-0188.html">教父之祖</a></h3>
+    <p>19世纪西西里岛,一位没落贵族如何被逼成为黑手党历史上第一位“教父”。</p>
+    <div class="tag-row">
+          <span>剧情</span>
+          <span>犯罪</span>
+          <span>历史</span>
+    </div>
+    <div class="card-stats">
+      <span>★ 9.6</span>
+      <span>32.4万热度</span>
+    </div>
+  </div>
+</article>
+
+<article class="movie-card" data-filter-item data-title="初入职场·中医季" data-genre="真人秀/职场" data-tags="实习、中医文化、师徒、挑战、观察类" data-year="2024">
+  <a class="poster-link" href="./movie-0192.html" aria-label="观看初入职场·中医季">
+    <img src="./42.jpg" alt="初入职场·中医季" loading="lazy">
+    <span class="poster-play">▶</span>
+    <span class="poster-category">纪录人文</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="movie-meta-line">
+      <span>2024</span>
+      <span>中国大陆</span>
+      <span>综艺</span>
+    </div>
+    <h3><a href="./movie-0192.html">初入职场·中医季</a></h3>
+    <p>八位名校中医毕业生进入三甲医院实习,面对真实的望闻问切和生死考验,谁能最终获得留院资格?</p>
+    <div class="tag-row">
+          <span>真人秀</span>
+          <span>职场</span>
+          <span>实习</span>
+    </div>
+    <div class="card-stats">
+      <span>★ 9.6</span>
+      <span>8.1万热度</span>
+    </div>
+  </div>
+</article>
+
+<article class="movie-card" data-filter-item data-title="白奶牛之歌" data-genre="剧情" data-tags="女性、复仇、法律、诗意、社会" data-year="2019">
+  <a class="poster-link" href="./movie-0272.html" aria-label="观看白奶牛之歌">
+    <img src="./122.jpg" alt="白奶牛之歌" loading="lazy">
+    <span class="poster-play">▶</span>
+    <span class="poster-category">动作冒险</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="movie-meta-line">
+      <span>2019</span>
+      <span>伊朗</span>
+      <span>电影</span>
+    </div>
+    <h3><a href="./movie-0272.html">白奶牛之歌</a></h3>
+    <p>失聪单亲妈妈为保住亡夫留下的白奶牛,踏上了一场无声的抗争之路。</p>
+    <div class="tag-row">
+          <span>剧情</span>
+          <span>女性</span>
+          <span>复仇</span>
+    </div>
+    <div class="card-stats">
+      <span>★ 9.6</span>
+      <span>44.4万热度</span>
+    </div>
+  </div>
+</article>
+
+<article class="movie-card" data-filter-item data-title="你说的都对" data-genre="剧情/喜剧" data-tags="职场,黑色幽默,反转,网络暴力" data-year="2023">
+  <a class="poster-link" href="./movie-0301.html" aria-label="观看你说的都对">
+    <img src="./1.jpg" alt="你说的都对" loading="lazy">
+    <span class="poster-play">▶</span>
+    <span class="poster-category">剧情人生</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="movie-meta-line">
+      <span>2023</span>
+      <span>中国大陆</span>
+      <span>电影</span>
+    </div>
+    <h3><a href="./movie-0301.html">你说的都对</a></h3>
+    <p>一个“职场老好人”意外成为全网追捧的“真相帝”,却发现自己说的每一句话都在把人推向深渊。</p>
+    <div class="tag-row">
+          <span>剧情</span>
+          <span>喜剧</span>
+          <span>职场</span>
+    </div>
+    <div class="card-stats">
+      <span>★ 9.6</span>
+      <span>13.3万热度</span>
+    </div>
+  </div>
+</article>
+
+<article class="movie-card" data-filter-item data-title="女学生和亨利先生" data-genre="爱情,剧情" data-tags="师生恋,禁忌,维多利亚时代,道德困境,悲剧" data-year="2025">
+  <a class="poster-link" href="./movie-0307.html" aria-label="观看女学生和亨利先生">
+    <img src="./7.jpg" alt="女学生和亨利先生" loading="lazy">
+    <span class="poster-play">▶</span>
+    <span class="poster-category">爱情喜剧</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="movie-meta-line">
+      <span>2025</span>
+      <span>英国</span>
+      <span>电影</span>
+    </div>
+    <h3><a href="./movie-0307.html">女学生和亨利先生</a></h3>
+    <p>1880年,牛津大学唯一的女学生爱上了她的古典学教授亨利先生,而教授已婚且有精神病的妻子。</p>
+    <div class="tag-row">
+          <span>爱情</span>
+          <span>剧情</span>
+          <span>师生恋</span>
+    </div>
+    <div class="card-stats">
+      <span>★ 9.6</span>
+      <span>26.2万热度</span>
+    </div>
+  </div>
+</article>
+
+<article class="movie-card" data-filter-item data-title="由内而外" data-genre="惊悚/科幻" data-tags="人体改造,高科技,身份认同,反乌托邦,身体恐怖" data-year="2024">
+  <a class="poster-link" href="./movie-0338.html" aria-label="观看由内而外">
+    <img src="./38.jpg" alt="由内而外" loading="lazy">
+    <span class="poster-play">▶</span>
+    <span class="poster-category">科幻奇幻</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="movie-meta-line">
+      <span>2024</span>
+      <span>美国</span>
+      <span>电影</span>
+    </div>
+    <h3><a href="./movie-0338.html">由内而外</a></h3>
+    <p>未来人类可通过“皮下重置”手术改变性格,但一群接受手术的人开始从内部腐烂。</p>
+    <div class="tag-row">
+          <span>惊悚</span>
+          <span>科幻</span>
+          <span>人体改造</span>
+    </div>
+    <div class="card-stats">
+      <span>★ 9.6</span>
+      <span>44.3万热度</span>
+    </div>
+  </div>
+</article>
+
+<article class="movie-card" data-filter-item data-title="蜜糖宝贝" data-genre="爱情/青春/校园" data-tags="青梅竹马,暗恋成真,甜宠,双向奔赴,治愈" data-year="2024">
+  <a class="poster-link" href="./movie-0411.html" aria-label="观看蜜糖宝贝">
+    <img src="./111.jpg" alt="蜜糖宝贝" loading="lazy">
+    <span class="poster-play">▶</span>
+    <span class="poster-category">青春校园</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="movie-meta-line">
+      <span>2024</span>
+      <span>中国大陆</span>
+      <span>剧集</span>
+    </div>
+    <h3><a href="./movie-0411.html">蜜糖宝贝</a></h3>
+    <p>那个从小被我欺负的软萌小胖子,十年后成了把控我毕业成绩的魔鬼导师。</p>
+    <div class="tag-row">
+          <span>爱情</span>
+          <span>青春</span>
+          <span>校园</span>
+    </div>
+    <div class="card-stats">
+      <span>★ 9.6</span>
+      <span>97.2万热度</span>
+    </div>
+  </div>
+</article>
+
+<article class="movie-card" data-filter-item data-title="夜总会奇杀案" data-genre="悬疑,犯罪,惊悚" data-tags="怀旧,舞女,密室,连环杀手,港产片" data-year="1997">
+  <a class="poster-link" href="./movie-0442.html" aria-label="观看夜总会奇杀案">
+    <img src="./142.jpg" alt="夜总会奇杀案" loading="lazy">
+    <span class="poster-play">▶</span>
+    <span class="poster-category">惊悚恐怖</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="movie-meta-line">
+      <span>1997</span>
+      <span>中国香港</span>
+      <span>电影</span>
+    </div>
+    <h3><a href="./movie-0442.html">夜总会奇杀案</a></h3>
+    <p>大雨夜,一家夜总会被锁死,舞台上女歌手一声尖叫之后,场内连续出现无头尸体。</p>
+    <div class="tag-row">
+          <span>悬疑</span>
+          <span>犯罪</span>
+          <span>惊悚</span>
+    </div>
+    <div class="card-stats">
+      <span>★ 9.6</span>
+      <span>87.7万热度</span>
+    </div>
+  </div>
+</article>
+
+<article class="movie-card" data-filter-item data-title="青春之歌" data-genre="青春校园" data-tags="音乐,乐队,高考,友谊" data-year="2023">
+  <a class="poster-link" href="./movie-0445.html" aria-label="观看青春之歌">
+    <img src="./145.jpg" alt="青春之歌" loading="lazy">
+    <span class="poster-play">▶</span>
+    <span class="poster-category">青春校园</span>
+  </a>
+  <div class="movie-card-body">
+    <div class="movie-meta-line">
+      <span>2023</span>
+      <span>中国大陆</span>
+      <span>电视剧</span>
+    </div>
+    <h3><a href="./movie-0445.html">青春之歌</a></h3>
+    <p>2008年,南方小城五个高中生为组建乐队偷走学校的钢琴,从此开启了一段关于梦想与离别的夏天。</p>
+    <div class="tag-row">
+          <span>青春校园</span>
+          <span>音乐</span>
+          <span>乐队</span>
+    </div>
+    <div class="card-stats">
+      <span>★ 9.6</span>
+      <span>62.1万热度</span>
+    </div>
+  </div>
+</article>
+
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="site-container footer-grid">
+    <section>
+      <div class="footer-brand">
+        <span class="brand-mark">影</span>
+        <strong>推荐电影大全</strong>
+      </div>
+      <p>整理推荐电影大全栏目，包含多题材精选片单和热门电影分类，便于查找观影内容。</p>
+    </section>
+    <section>
+      <h2>快速导航</h2>
+      <ul>
+        <li><a href="./index.html">首页</a></li>
+        <li><a href="./categories.html">分类浏览</a></li>
+        <li><a href="./rankings.html">热门排行</a></li>
+        <li><a href="./search.html">影片搜索</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>热门分类</h2>
+      <ul>
+          <li><a href="./category-romance.html">爱情喜剧</a></li>
+          <li><a href="./category-suspense.html">悬疑推理</a></li>
+          <li><a href="./category-action.html">动作冒险</a></li>
+          <li><a href="./category-scifi.html">科幻奇幻</a></li>
+          <li><a href="./category-drama.html">剧情人生</a></li>
+          <li><a href="./category-horror.html">惊悚恐怖</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>精选片单</h2>
+      <p>围绕题材、地区、年份与观影口味整理内容，帮助快速找到合适影片。</p>
+    </section>
+  </div>
+  <div class="footer-bottom">© 2026 推荐电影大全</div>
+</footer>
+<script src="./assets/search-data.js"></script>
+<script src="./assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
